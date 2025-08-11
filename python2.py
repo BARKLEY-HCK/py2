@@ -1,10 +1,14 @@
 my_list = []
-my_list.extend([10, 20, 30, 40])
-my_list.insert(1,15)
-my_list.extend([50, 70])
-my_list.remove(my_list[6])
-my_list = sorted(my_list)
-index_30 = my_list.index(30)
-print(index_30)
-print(my_list)
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+my_list.insert(1, 15)
+my_list.extend([50, 60, 70])
+my_list.pop()
+my_list.sort()
+index_of_30 = my_list.index(30)
 
+print("Index of 30:", index_of_30)
+
+print(my_list)
